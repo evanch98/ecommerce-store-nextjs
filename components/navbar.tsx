@@ -1,5 +1,6 @@
 import Container from "@/components/ui/container";
 import Link from "next/link";
+import MainNav from "@/components/main-nav";
 
 const Navbar = () => {
   return (
