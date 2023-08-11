@@ -1,7 +1,7 @@
 import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
 
-export const revalidate = 0;
+export const revalidate = 0; // to make sure it's never cached
 
 const HomePage = () => {
   return (
