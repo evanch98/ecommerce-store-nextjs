@@ -5,7 +5,7 @@ import Container from "@/components/ui/container";
 export const revalidate = 0; // to make sure it's never cached
 
 const HomePage = async () => {
-  const billboard = await getBillboard("b25f11e2-97c1-443e-92e3-da667ea15753");
+  const billboard = await getBillboard("27fbdcc2-6041-42c6-8245-3605ed68c657");
   return (
     <Container>
       <div className="space-y-10 pb-10">
